@@ -1,0 +1,144 @@
+/* .hero {
+    background: url('https://connectcare3.com/wp-content/uploads/2021/01/making-sense-of-mental-health.png');
+    background-size: cover; 
+    background-position: center;
+  }
+   */
+  
+.btnshadow {
+  transition: 0.5s all ease-in;
+}
+
+.btnshadow:hover {
+  cursor: pointer;
+  box-shadow: 12px 12px 20px rgb(0, 89, 255) inset, -12px -12px 20px rgb(0, 89, 255)  inset;
+  color: black;
+
+}
+
+/* https://www.lybl.com/mental-health-well-being */
+
+.line {
+  background-image: linear-gradient(to left, rgba(128, 128, 128, 0.113), rgba(0, 4, 255, 0.783), rgba(128, 128, 128, 0.113));
+}
+
+
+.mentalType::-webkit-scrollbar {
+  height: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .mentalType::-webkit-scrollbar {
+    height: 0;
+    cursor: pointer;
+  }
+}
+
+.mentalType::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right ,rgb(255, 255, 255), rgba(0, 0, 255, 0.767));
+}
+
+.mentalType::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+
+.box1{
+  border: 2px solid rgb(46, 46, 120);
+  background-image: url('https://th.bing.com/th/id/R.b0831a461107a205d0711c8f21137231?rik=%2fn1pIVzGUF%2fdEg&riu=http%3a%2f%2fdoctorwellsnaturalhealth.com%2fwp-content%2fuploads%2f2014%2f09%2fDr-Wells-dreamstime_xl_13011820.jpg&ehk=M3AdOuBK1d4Zgax2QQBpXkpOT3TPI%2bg4FNBguWtbKoY%3d&risl=1&pid=ImgRaw&r=0');
+  background-size: cover;
+}
+
+.box2{
+  border: 2px solid rgb(46, 46, 120);
+  background-image: url('https://th.bing.com/th/id/OIP.JW_4m4RVV4ywf0aiB6TWrgAAAA?rs=1&pid=ImgDetMain');
+  background-size: cover;
+}
+.box3{
+  border: 2px solid rgb(46, 46, 120);
+  background-image: url('https://th.bing.com/th/id/OIP.zk6ljBq0PJHHSl6kgbrKVAHaHa?rs=1&pid=ImgDetMain');
+  background-size: cover;
+}
+.mentalType div {
+  border-radius: 3px;
+  box-shadow: 1px 3px 7px #977979;
+}
+.mentalType div{
+  transition: 0.5s all ease-in;
+  cursor: pointer;
+}
+.mentalType div:hover{
+  transform: scale(1.04);
+}
+.nav-link {
+  margin: auto;
+  font-weight: 600;
+  padding: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+.boxshadow1 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+  perspective: 10000px;
+  transition: 2s all ease;
+  box-shadow: 0px 0px 20px rgba(114, 104, 104, 0.437) inset,0px 0px 20px rgb(114, 104, 104,0.437) inset;
+  border-radius: 10px;
+}
+.boxshadow{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.513);
+}
+.boxshadow1:hover{
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.493);
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  transform: scaleX(0);
+  transition: 0.5s all ease;
+  border-radius: 100px;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+
+
+
+.custom-card:hover .text-on-hover {
+  display: flex;
+  animation: sizi 1s 1;
+}
+
+
+@keyframes sizi {
+  0% {
+    opacity: 0;
+    scale: 0.3;
+    transform: rotateY(90deg);
+  }
+
+  100% {
+    scale: 1;
+    opacity: 1;
+
+  }
+}
+
+.ball{
+  background-image: radial-gradient( rgba(0, 76, 255, 0.489) , rgba(249, 249, 249, 0.151));
+}
+
+.chatbox{
+  transition: 2s all ease-in;
+}
